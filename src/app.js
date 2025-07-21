@@ -230,10 +230,6 @@ app.get('/', (req, res) => {
 // تسجيل مسارات MCP
 app.use('/mcp', mcpRoutes);
 
-// تسجيل بروتوكول MCP الرسمي
-const mcpProtocol = require('./routes/mcpProtocol');
-app.use('/mcp', mcpProtocol);
-
 // معالجة الأخطاء
 app.use(errorHandler);
 
