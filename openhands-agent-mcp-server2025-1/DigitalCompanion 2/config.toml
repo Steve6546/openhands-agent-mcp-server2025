@@ -1,0 +1,16 @@
+[mcp]
+
+# نقاط نهاية Streamable HTTP (SHTTP)
+shttp_servers = [
+  { url = "https://openhands-agent-mcp-server.steve6546.repl.co/mcp", api_key = "" }
+]
+
+# نقاط نهاية Server-Sent Events (SSE)
+sse_servers = [
+  "https://openhands-agent-mcp-server.steve6546.repl.co/mcp/sse"
+]
+
+# عمليات محليّة عبر stdin/stdout (STDIO) — اختياري
+# stdio_servers = [
+#   { name="local-mcp", command="node", args=["index.js"], env={ DEBUG="true" } }
+# ]

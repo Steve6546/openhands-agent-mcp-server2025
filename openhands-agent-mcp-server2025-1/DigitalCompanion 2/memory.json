@@ -1,0 +1,14 @@
+{
+  "memories": [
+    {
+      "key": "project-type",
+      "value": "MCP-backend-only",
+      "timestamp": 1753065588857
+    },
+    {
+      "key": "final-test",
+      "value": "project-complete",
+      "timestamp": 1753065660689
+    }
+  ]
+}

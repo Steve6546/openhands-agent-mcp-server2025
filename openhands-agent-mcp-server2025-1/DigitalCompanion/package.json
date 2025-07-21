@@ -1,0 +1,28 @@
+
+{
+  "name": "openhands-agent-mcp-server",
+  "version": "1.0.0",
+  "description": "OpenHands Agent MCP Server - نظام موحد متكامل",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["mcp", "openhands", "agent", "server"],
+  "author": "OpenHands Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.2",
+    "cors": "2.8.5",
+    "body-parser": "1.20.2",
+    "lodash": "4.17.21",
+    "axios": "1.6.7",
+    "moment": "2.29.4",
+    "lowdb": "1.0.0",
+    "retry": "0.13.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
