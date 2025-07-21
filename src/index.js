@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // src/index.js - نقطة الدخول الرئيسية
 const app = require('./app');
 const config = require('./config');
